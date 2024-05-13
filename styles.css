@@ -17,7 +17,7 @@ body{
 
 .container{
     position: relative;
-    width: 400px;
+    width: 350px;
     height: 100px;
     background: rgba(54, 174, 214, 0.199);
     backdrop-filter: blur(30px);
@@ -60,7 +60,7 @@ body{
 }
 
 .search-box input::placeholder{
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.445);
     text-transform: capitalize;
 }
 
