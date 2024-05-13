@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/cloud-solid.svg">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i style="color: white;" class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="enter your location">
+            <button style="color: white;" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="images/cloud.png" alt="">
+                        <p class="temperature">0<span>°C</span></p>
+                        <p class="description">Cloudy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i style="color: white;" class="fa-solid fa-water"></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i style="color: white;" class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0Km/h</span>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="not-found">
+            <div class="box">
+                <img src="images/404.png">
+                <p>Location not found!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
