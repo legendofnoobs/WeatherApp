@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
     background: url(/images/background.jpg);
     background-size: cover;
@@ -17,7 +18,7 @@ body{
 
 .container{
     position: relative;
-    width: 350px;
+    width: 350px !important;
     height: 100px;
     background: rgba(54, 174, 214, 0.199);
     backdrop-filter: blur(30px);
