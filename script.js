@@ -57,3 +57,9 @@ search.addEventListener("click",function(){
     });
     
 });
+
+const myMainInput = document.getElementById("myMainInput");
+
+myMainInput.addEventListener("keypress", (e) =>{
+    if(e.key == "Enter") search.click();
+})
